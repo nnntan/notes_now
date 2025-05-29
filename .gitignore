@@ -1,0 +1,74 @@
+# Flutter & Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+**/build/
+
+# iOS
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/Podfile.lock
+ios/Runner.xcworkspace/
+ios/xcuserdata/
+ios/Flutter/ephemeral/
+
+# macOS
+macos/Pods/
+macos/Podfile.lock
+macos/Runner.xcworkspace/
+macos/xcuserdata/
+macos/Flutter/ephemeral/
+
+# Android
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/local.properties
+
+# VS Code
+.vscode/
+
+# IntelliJ & Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Xcode
+*.xcuserstate
+*.xcworkspace
+*.xcuserdata
+*.xccheckout
+*.moved-aside
+*.xcuserdatad
+*.xcscmblueprint
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
+
+# API docs
+doc/api/
+
+# Others
+*.orig
+*.lock
